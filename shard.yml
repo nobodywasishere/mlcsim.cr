@@ -1,0 +1,18 @@
+name: mlcsim
+version: 0.1.0
+
+authors:
+  - Margret Riegert <margret@eowyn.net>
+
+dependencies:
+  gsl:
+    git: https://github.com/konovod/crystal-gsl
+    commit: 42f4cfaa9deb5f2cf73fa39b85de88ebf066b2a4
+
+targets:
+  mlcsim:
+    main: src/mlcsim.cr
+
+crystal: 1.8.0
+
+license: MIT

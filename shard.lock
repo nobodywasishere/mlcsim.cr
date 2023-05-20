@@ -1,0 +1,10 @@
+version: 2.0
+shards:
+  gsl:
+    git: https://github.com/konovod/crystal-gsl.git
+    version: 0.2.0+git.commit.42f4cfaa9deb5f2cf73fa39b85de88ebf066b2a4
+
+  simplepool:
+    git: https://github.com/konovod/simplepool.git
+    version: 0.1.0+git.commit.e3ebfed4384cea18fa0e6bc9359f17314cacaee6
+
